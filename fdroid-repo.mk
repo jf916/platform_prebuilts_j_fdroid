@@ -3,5 +3,7 @@ PRODUCT_PACKAGES += \
     F-Droid \
     F-DroidPrivilegedExtension \
     TrichromeChrome \
-    TrichromeWebView \
-    Ripple
+    TrichromeWebView
+
+
+$(call inherit-product, prebuilts/calyx/fdroid/fdroid-repo.mk)
