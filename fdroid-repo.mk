@@ -1,7 +1,7 @@
 PRODUCT_PACKAGES += \
-    fdroid-repo \
+    Datura \
     F-Droid \
-    Cromite \
     F-DroidPrivilegedExtension \
-    Maps \
-    Signal
+    TrichromeChrome \
+    TrichromeWebView \
+    Ripple
