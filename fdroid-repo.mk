@@ -3,7 +3,6 @@ PRODUCT_PACKAGES += \
     F-Droid \
     F-DroidPrivilegedExtension \
     TrichromeChrome \
-    TrichromeWebView
+    TrichromeWebView \
+    Maps
 
-
-$(call inherit-product, prebuilts/calyx/fdroid/fdroid-repo.mk)
