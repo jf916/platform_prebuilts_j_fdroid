@@ -4,5 +4,5 @@ PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension \
     TrichromeChrome \
     TrichromeWebView \
-    Maps
+    Ripple
 
