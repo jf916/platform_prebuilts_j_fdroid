@@ -3,7 +3,5 @@ PRODUCT_PACKAGES += \
     F-Droid \
     F-DroidPrivilegedExtension \
     TrichromeChrome \
-    TrichromeWebView \
-    Signal \
-    Map
+    TrichromeWebView
 

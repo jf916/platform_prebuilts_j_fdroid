@@ -8,25 +8,3 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions androidx.window.sidecar
 include $(BUILD_PREBUILT)
-
-
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Map
-LOCAL_SRC_FILES := Map.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions androidx.window.sidecar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Signal
-LOCAL_SRC_FILES := Signal.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy androidx.window.extensions androidx.window.sidecar
-include $(BUILD_PREBUILT)
