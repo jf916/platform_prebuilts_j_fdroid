@@ -4,5 +4,6 @@ PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension \
     TrichromeChrome \
     TrichromeWebView \
-    Ripple
+    Signal \
+    Map
 
